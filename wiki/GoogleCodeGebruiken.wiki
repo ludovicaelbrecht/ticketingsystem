@@ -28,11 +28,13 @@ Er bestaan veel Subversion (das de VCS die googlecode gebruikt) programma's, zie
 Voor echte programma's (die zijn wrsch 't handigst als ge wilt ploeteren in de geschiedenis van de code) is er veel keuze.
 
 *RapidSvn*
+
 http://rapidsvn.tigris.org/
 
 Naar 't schijnt heel goed, persoonlijk slechte ervaringen mee. Werkt op windows wrsch beter.
 
 *TortoiseSvn*
+
 http://tortoisesvn.tigris.org/
 
 Bedoeling van tortoiseSvn is vooral om te integreren met windows explorer dacht ik, zoals ge kunt zien op http://tortoisesvn.tigris.org/ExplorerIntegration.html#contextmenus
@@ -40,6 +42,7 @@ Bedoeling van tortoiseSvn is vooral om te integreren met windows explorer dacht 
 Nadeel is dus dat ge extra rommel hebt in uw explorer menu, en dat 't missch minder handig is om mee te werken dan een echt programma dat u een venster en een menubar enzo geeft. Maar missch heeft tortoise dat ook - nooit mee gewerkt.
 
 *eSvn*
+
 http://zoneit.free.fr/esvn/
 
 Werkt heel goed heb ik de indruk.
@@ -48,12 +51,14 @@ Probleem is wel dat de voorlaatste versie (van 2005) een windows executable heef
 
 === Visual Studio plugins ===
 *AnkhSvn*
+
 Voor Visual Studio plugins (om gemakkelijk checkouts & checkins te doen) is AnkhSvn goed dacht ik (http://ankhsvn.tigris.org/)
 't kan zijn dat een development versie nodig is, die valt hier te downloaden: http://ankhsvn.tigris.org/servlets/ProjectDocumentList?folderID=4013&expandFolder=4013&folderID=4013
 
 AnkhSvn werkt wel met VS2005, maar 't zou kunnen dat die niet werkt met VS2005 Express Edition (de gratis versie) omdat microsoft in zijn licentie heeft (had?) staan dat dat verboden is. Heb het nog niet kunnen uitproberen...
 
 *TortoiseSvn*
+
 http://tortoisesvn.tigris.org/
 
 Bedoeling van tortoiseSvn is vooral om te integreren met windows explorer dacht ik, zoals ge kunt zien op http://tortoisesvn.tigris.org/ExplorerIntegration.html#contextmenus
