@@ -39,9 +39,9 @@ Bedoeling van tortoiseSvn is vooral om te integreren met windows explorer dacht 
 Er heeft iemand een plugin geschreven die tortoisesvn integreert met visual studio (o.a. 2005, en ook express als ik heb goed begrijp). De installatie is wrsch iets moeilijker, maar deze plugin ziet er wel gemakkelijker te gebruiken uit dan ankhsvn, en ik denk dat er meer kans is dat die werkt met de express editie.
 
 Heb het nog niet kunnen uitproberen, maar alle uitleg is hier te vinden:
-http://garrys-brain.blogspot.com/2006/10/tortoisesvn-vsnet-2005-good-stuff.html
-http://garrys-brain.blogspot.com/2006/10/subversion-tortoisesvn-integration.html
-http://garrys-brain.blogspot.com/2007/07/tortoisesvn-and-visual-studio.html
+  * http://garrys-brain.blogspot.com/2006/10/tortoisesvn-vsnet-2005-good-stuff.html
+  * http://garrys-brain.blogspot.com/2006/10/subversion-tortoisesvn-integration.html
+  * http://garrys-brain.blogspot.com/2007/07/tortoisesvn-and-visual-studio.html
 
 == Locking ==
 
