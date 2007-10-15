@@ -8,11 +8,27 @@
 == VB ==
   * ...
   * ...
+== DB ==
+=== Permissions ===
+Zijn permissions mogelijk? iets zoals dit (komt uit [http://sf.net/projects/freeseat freeseat]):
+{{{
+GRANT USAGE ON *.* TO bookinguser@127.0.0.1 TO bookinguser@localhost;
+GRANT SELECT ON ticketing.seats TO bookinguser@localhost;
+GRANT SELECT,INSERT,UPDATE,DELETE ON ticketing.seat_locks TO bookinguser@localhost;
+GRANT SELECT ON ticketing.price TO bookinguser@localhost;
+GRANT SELECT ON ticketing.theatres TO bookinguser@localhost;
+GRANT SELECT ON ticketing.shows TO bookinguser@localhost;
+}}}
+Op 't eerste zicht lijkt alles inserts nodig te hebben, buiten tblAccesslevel. DELETE's zijn op de meeste tabellen wrsch niet nodig.
 
 = Done =
 
 == ASP ==
+  * ...
+  * ...
 == VB ==
+  * ...
+  * ...
 
 
 
