@@ -50,6 +50,8 @@ Werkt heel goed heb ik de indruk.
 Probleem is wel dat de laatste versie geen officiële windows executable heeft.
 Heb er wel een gevonden op http://homepage.mac.com/t_munemasa/.Public/Subversion/esvn-0.6.12-win.zip maar heb geen idee heb hoe goed die werkt.
 
+
+
 === Visual Studio plugins ===
 *AnkhSvn*
 
