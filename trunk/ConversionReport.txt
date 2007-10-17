@@ -1,0 +1,73 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file css.vbproj at October 16 2007, 17:32:53.
+
+=========================ERRORS===================
+
+=========================WARNINGS=================
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Removed attribute Codebehind from file contact.aspx.
+Warning: Access level of 'css.contact' changed to 'Partial' in file contact.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file contact.aspx.vb.    contact.aspx.vb (Line 18)
+Removed attribute Codebehind from file Global.asax.
+Removed attribute Codebehind from file herstelling.aspx.
+Warning: Access level of 'css.herstelling' changed to 'Partial' in file herstelling.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file herstelling.aspx.vb.    herstelling.aspx.vb (Line 18)
+Removed attribute Codebehind from file home.aspx.
+Warning: Access level of 'css.home' changed to 'Partial' in file home.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file home.aspx.vb.    home.aspx.vb (Line 18)
+Removed attribute Codebehind from file info.aspx.
+Warning: Access level of 'css.info' changed to 'Partial' in file info.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file info.aspx.vb.    info.aspx.vb (Line 18)
+Removed attribute Codebehind from file klantregistratie.aspx.
+Warning: Access level of 'css.klantregistratie' changed to 'Partial' in file klantregistratie.aspx.vb (Line 10).
+Warning: Removed comment lines before designplaceholder declaration from file klantregistratie.aspx.vb.    klantregistratie.aspx.vb (Line 27)
+Removed attribute Codebehind from file orderstatus.aspx.
+Warning: Access level of 'css.orderstatus' changed to 'Partial' in file orderstatus.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file orderstatus.aspx.vb.    orderstatus.aspx.vb (Line 18)
+Removed attribute Codebehind from file overzichtwinkelkar.aspx.
+Warning: Access level of 'css.overzichtwinkelkar' changed to 'Partial' in file overzichtwinkelkar.aspx.vb (Line 5).
+Warning: Removed comment lines before designplaceholder declaration from file overzichtwinkelkar.aspx.vb.    overzichtwinkelkar.aspx.vb (Line 20)
+Removed attribute Codebehind from file producten.aspx.
+Warning: Access level of 'css.producten' changed to 'Partial' in file producten.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file producten.aspx.vb.    producten.aspx.vb (Line 21)
+Removed attribute Codebehind from file promoties.aspx.
+Warning: Access level of 'css.promoties' changed to 'Partial' in file promoties.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file promoties.aspx.vb.    promoties.aspx.vb (Line 18)
+Removed attribute Codebehind from file registratieoverzicht.aspx.
+Warning: Access level of 'css.registratieoverzicht' changed to 'Partial' in file registratieoverzicht.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file registratieoverzicht.aspx.vb.    registratieoverzicht.aspx.vb (Line 43)
+Removed attribute Codebehind from file support.aspx.
+Warning: Access level of 'css.support' changed to 'Partial' in file support.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file support.aspx.vb.    support.aspx.vb (Line 18)
+Removed attribute Codebehind from file template.aspx.
+Warning: Access level of 'css.template' changed to 'Partial' in file template.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file template.aspx.vb.    template.aspx.vb (Line 13)
+Removed attribute Codebehind from file template_in.aspx.
+Warning: Access level of 'css.template_in' changed to 'Partial' in file template_in.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file template_in.aspx.vb.    template_in.aspx.vb (Line 13)
+Removed attribute Codebehind from file verwijderArtikel.aspx.
+Warning: Access level of 'css.verwijderArtikel' changed to 'Partial' in file verwijderArtikel.aspx.vb (Line 5).
+Warning: Removed comment lines before designplaceholder declaration from file verwijderArtikel.aspx.vb.    verwijderArtikel.aspx.vb (Line 19)
+Removed attribute Codebehind from file winkel.aspx.
+Warning: Access level of 'css.winkel' changed to 'Partial' in file winkel.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file winkel.aspx.vb.    winkel.aspx.vb (Line 13)
+Removed attribute Codebehind from file winkelkar.aspx.
+Warning: Access level of 'css.winkelkar' changed to 'Partial' in file winkelkar.aspx.vb (Line 5).
+Warning: Removed comment lines before designplaceholder declaration from file winkelkar.aspx.vb.    winkelkar.aspx.vb (Line 25)
+Added folder App_Code.
+Moved file Global.asax.vb to the App_Code\ directory.
+Moved file clsdatabase.vb to the App_Code\ directory.
+Warning: Access level of 'encryptMD5' changed to 'public' in file md5.vb (Line 8).    md5.vb (Line 8)
+Moved file md5.vb to the App_Code\ directory.
+Moved file AssemblyInfo.vb to the App_Code\ directory.
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file Bin\css.dll.
+Removed file Bin\css.pdb.
+Removed file css.vbproj.
+Removed file css.vbproj.webinfo.
+Project css.vbproj has been converted successfully at October 16 2007, 17:33:10.
