@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Web Developer Express 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "c:\eticketing\", "..\..\..\..\..\..\eticketing\", "{C9B13110-5350-48CA-B2EF-584E1C230B02}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/eticketing"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\eticketing\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\eticketing\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/eticketing"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\eticketing\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\eticketing\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2049"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9B13110-5350-48CA-B2EF-584E1C230B02}.Debug|.NET.ActiveCfg = Debug|.NET
+		{C9B13110-5350-48CA-B2EF-584E1C230B02}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
