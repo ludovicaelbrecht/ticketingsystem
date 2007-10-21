@@ -1,12 +1,13 @@
-#een overzicht van alle klassen en wie ze heeft gemaakt
 
-= Conventies =
+
+== Conventies ==
  namen van klassen beginnen altijd me 'cl' gevold door een hoofdletter bijv.: clReseveren
 
 
-= Overzicht =
+== Overzicht ==
 
 *clAccessCon* : DBconnectieklasse naar Access DB 
+
 *clSqlCon* : DBconnectieklasse naar SQL Server (of oracle voorlopig)
 
 *clReserveren*: klasse voor het reserveren van tickets (enkel reservatie aanmaken , ticket annuleren is voor de beheersklassen)
