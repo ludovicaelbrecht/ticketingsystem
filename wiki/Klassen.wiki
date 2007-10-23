@@ -1,7 +1,6 @@
 #labels overzichtvandeklassen
-
 == Conventies ==
- namen van klassen beginnen altijd me 'cl' gevold door een hoofdletter bijv.: clReseveren
+ namen van klassen beginnen altijd me 'cl' gevolgd door een hoofdletter bijv.: clReseveren
 
 
 == Overzicht ==
@@ -11,3 +10,5 @@
 *clSqlCon* : DBconnectieklasse naar SQL Server (of oracle voorlopig)
 
 *clReserveren*: klasse voor het reserveren van tickets (enkel reservatie aanmaken , ticket annuleren is voor de beheersklassen)
+
+*clTicket*: klasse voor beheer (laden, nieuw aanmaken, wijzigen,...) van een ticket
