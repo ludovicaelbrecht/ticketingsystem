@@ -1,17 +1,27 @@
-#labels overzichtvandeklassen
+#labels klassenoverzichtfuncties
 == Conventies ==
- namen van klassen beginnen altijd me 'cl' gevolgd door een hoofdletter bijv.: clReseveren
+ namen van klassen beginnen altijd me 'cl' gevolgd door een hoofdletter bijv.: clTicket
 
 
 == Overzicht ==
 
 *clAccessCon* : DBconnectieklasse naar Access DB 
 
+    _functies_: f_getUserData,f_checkLogin
+
+
 *clSqlCon* : DBconnectieklasse naar SQL Server (of oracle voorlopig)
 
-*clReserveren*: klasse voor het reserveren van tickets (enkel reservatie aanmaken , ticket annuleren is voor de beheersklassen)
 
-*clTicket*: klasse voor beheer (laden, nieuw aanmaken, wijzigen,...) van een ticket
+*clTicket*   : klasse voor beheer van een ticket
+   _functies_: f_ticReserveren, f_ticWijzigen, f_ticBekijken
+
 
 *clProductie*: klasse voor beheer van producties
-_functie_: f_prodToevoegen, f_prodWijzigen,f_prodBekijken
+
+   _functies_: f_prodToevoegen, f_prodWijzigen,f_prodBekijken
+
+
+*clKlant*    : klasse voor beheer van klanten
+
+   _functies_: f_klantToevoegen, f_klantWijzigen,f_klantBekijken
