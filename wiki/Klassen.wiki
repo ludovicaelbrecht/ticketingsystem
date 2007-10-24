@@ -12,3 +12,6 @@
 *clReserveren*: klasse voor het reserveren van tickets (enkel reservatie aanmaken , ticket annuleren is voor de beheersklassen)
 
 *clTicket*: klasse voor beheer (laden, nieuw aanmaken, wijzigen,...) van een ticket
+
+*clProductie*: klasse voor beheer van producties
+_functie_: f_prodToevoegen, f_prodWijzigen,f_prodBekijken
