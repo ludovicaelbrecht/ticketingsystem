@@ -56,9 +56,8 @@ Heb er wel een gevonden op http://homepage.mac.com/t_munemasa/.Public/Subversion
 *AnkhSvn*
 
 Voor Visual Studio plugins (om gemakkelijk checkouts & checkins te doen) is AnkhSvn goed dacht ik (http://ankhsvn.tigris.org/)
-'t kan zijn dat een development versie nodig is, die valt hier te downloaden: http://ankhsvn.tigris.org/servlets/ProjectDocumentList?folderID=4013&expandFolder=4013&folderID=4013
 
-AnkhSvn werkt wel met VS2005, maar 't zou kunnen dat die niet werkt met VS2005 Express Edition (de gratis versie) omdat microsoft in zijn licentie heeft (had?) staan dat dat verboden is. Heb het nog niet kunnen uitproberen...
+AnkhSvn werkt wel met VS2005, maar _niet met VS2005 Express Edition (de gratis versie)_ omdat microsoft in zijn licentie heeft staan dat dat verboden is.
 
 *TortoiseSvn*
 
