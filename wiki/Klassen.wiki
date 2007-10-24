@@ -9,13 +9,14 @@
 
     _functies_: f_getUserData,f_checkLogin
 
-_____________________________________________________________________________
-===*clSqlCon* : DBconnectieklasse naar SQL Server (of oracle voorlopig)===
+*clSqlCon* : DBconnectieklasse naar SQL Server (of oracle voorlopig)
 
 _functies_: 
+
 f_checkLogin(select),f_toonKlant(select),f_toonTicket(select),f_toonProductie(select),
+
 f_reserveerTicket(insert),f_maakProductie(insert),f_maakKlant(insert) 
-_____________________________________________________________________________
+
 *clTicket*   : klasse voor beheer van een ticket
    _functies_: f_ticReserveren, f_ticWijzigen, f_ticBekijken
 
