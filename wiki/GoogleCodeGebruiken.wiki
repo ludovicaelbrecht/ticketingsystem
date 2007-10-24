@@ -20,57 +20,45 @@ Ander voordeel is dat als er opeens een bug verschijnt die er eerst ni was, ge e
 
 Als ge een vrij groot stuk code verandert en een tijd later merkt dat uw nieuwe oplossing toch ni werkt, kunt ge ook gemakkelijker de oude oplossing terug ophalen (zonder met backups of "versie 67" te werken, wat vrij vermoeiend wordt na 'n tijd). Met checkin of "commit" messages kunt ge ook snel zien welke versie de oude oplossing nog had.
 
-== VCS clients ==
-Er bestaan veel Subversion (das de VCS die googlecode gebruikt) programma's, zie http://subversion.tigris.org/links.html#clients
-
-=== Volledige clients ===
-
-Voor echte programma's (die zijn wrsch 't handigst als ge wilt ploeteren in de geschiedenis van de code) is er veel keuze.
-
-*RapidSvn*
-
-http://rapidsvn.tigris.org/
-
-Naar 't schijnt heel goed, persoonlijk slechte ervaringen mee. Werkt op windows wrsch beter.
-
-*TortoiseSvn*
+== TortoiseSvn ==
 
 http://tortoisesvn.tigris.org/
 
-Bedoeling van tortoiseSvn is vooral om te integreren met windows explorer dacht ik, zoals ge kunt zien op http://tortoisesvn.tigris.org/ExplorerIntegration.html#contextmenus
+Bedoeling van tortoiseSvn is vooral om te integreren met windows explorer, zoals ge kunt zien op http://tortoisesvn.tigris.org/ExplorerIntegration.html#contextmenus
 
-Nadeel is dus dat ge extra rommel hebt in uw explorer menu, en dat 't missch minder handig is om mee te werken dan een echt programma dat u een venster en een menubar enzo geeft. Maar missch heeft tortoise dat ook - nooit mee gewerkt.
+Dit eerst installeren: dit is nodig voor visual studio plugin (tenzij ge ankhSvn gebruikt).
 
-*eSvn*
+*STAPPEN VOOR GEBRUIK:*
 
-http://zoneit.free.fr/esvn/
+ * tortoiseSVN downloaden:
+   - 32bit OS: http://prdownloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.4.5.10425-win32-svn-1.4.5.msi?download
 
-Werkt heel goed heb ik de indruk.
+   - 64bit OS: http://prdownloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.4.5.10425-x64-svn-1.4.5.msi?download
 
-Probleem is wel dat de laatste versie geen officiële windows executable heeft.
-Heb er wel een gevonden op http://homepage.mac.com/t_munemasa/.Public/Subversion/esvn-0.6.12-win.zip maar heb geen idee heb hoe goed die werkt.
+ * tortoiseSVN installeren
 
+ * ergens rechtsklikken in windows explorer-> tortoiseSvn -> settings
+   - in "general" tab: "use (underscore)svn instead of .svn directories" aanvinken
 
+   - in tabblad "look and feel" bovenste item, "checkout..." aanvinken
 
-=== Visual Studio plugins ===
-*AnkhSvn*
+ * naar c:\ gaan. (of d:, of wat dan ook, gewoon een root).
+   - nieuwe map aanmaken, bvb "repo" of "repository"
+
+   - rechtsklikken op deze map, tortoiseSvn -> check out. check out URL, username & wachtwoord staan op http://code.google.com/p/ticketingsystem/source
+
+== Visual Studio plugins ==
+=== AnkhSvn ===
 
 Voor Visual Studio plugins (om gemakkelijk checkouts & checkins te doen) is AnkhSvn goed dacht ik (http://ankhsvn.tigris.org/)
 
 AnkhSvn werkt wel met VS2005, maar _niet met VS2005 Express Edition (de gratis versie)_ omdat microsoft in zijn licentie heeft staan dat dat verboden is.
 
-*TortoiseSvn*
+=== TortoiseSvn ===
 
-http://tortoisesvn.tigris.org/
+Er heeft iemand een plugin geschreven die tortoisesvn integreert met visual studio (o.a. 2005, en ook express). De installatie is iets moeilijker dan AnkhSvn, maar deze plugin is de enige die werkt met VS2005 Express.
 
-Bedoeling van tortoiseSvn is vooral om te integreren met windows explorer dacht ik, zoals ge kunt zien op http://tortoisesvn.tigris.org/ExplorerIntegration.html#contextmenus
-
-Er heeft iemand een plugin geschreven die tortoisesvn integreert met visual studio (o.a. 2005, en ook express als ik heb goed begrijp). De installatie is wrsch iets moeilijker, maar deze plugin ziet er wel gemakkelijker te gebruiken uit dan ankhsvn, en ik denk dat er meer kans is dat die werkt met de express editie.
-
-Heb het nog niet kunnen uitproberen, maar alle uitleg is hier te vinden:
-  * http://garrys-brain.blogspot.com/2006/10/tortoisesvn-vsnet-2005-good-stuff.html
-  * http://garrys-brain.blogspot.com/2006/10/subversion-tortoisesvn-integration.html
-  * http://garrys-brain.blogspot.com/2007/07/tortoisesvn-and-visual-studio.html
+Heb de uitleg en de nodige bestanden geupload op http://ticketingsystem.googlecode.com/svn/trunk/resources/svn-plugin/
 
 == Locking ==
 
