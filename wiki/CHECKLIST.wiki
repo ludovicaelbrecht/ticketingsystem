@@ -2,9 +2,9 @@
 
 == TO DO ==
 
--Plaatsingsalgoritme uitwerken+grondplan maken en tabellen aanpassen
+- Plaatsingsalgoritme uitwerken+grondplan maken en tabellen aanpassen
 
--overzicht reservaties afdrukken met opties voor Alles, betaalde of niet-betaalde
+- overzicht reservaties afdrukken met opties voor Alles, betaalde of niet-betaalde
 
 - foutbehandeling (zie checklist)
 
