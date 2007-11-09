@@ -10,9 +10,13 @@
 
 ===KENNY===
 - voorstellingen : controle op invoer uur (10 invullen geeft errors)
+
 - insertProductie==> zichtbaar veld is nu int==> boolean van maken?
+
 - confirmations na inserts toevoegen of foutcode (try catch)
+
 - controle==> geen 2x dezelfde voorstelling per dag toevoegen op hetzelfde uur ofzo
+
 - SQL injections voorkomen (filterfuncties?)
 
 
