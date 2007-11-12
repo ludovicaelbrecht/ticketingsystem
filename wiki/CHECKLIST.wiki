@@ -1,4 +1,6 @@
-# Algemene TODO + checklist
+# Algemene TODO: grote wijzigingen/toevoegingen die zeker moeten gebeuren voor het inleveren.
+
+checklist: persoonlijk, bevat ook dingen die handig zouden zijn maar minder belangrijk zijn
 
 == TO DO ==
 
@@ -7,6 +9,9 @@
 - overzicht reservaties afdrukken met opties voor Alles, betaalde of niet-betaalde
 
 - foutbehandeling (zie checklist)
+
+- geheugen terug vrijgeven (obj=Nothing enzo)
+
 
 == individuele checklists ==
 
