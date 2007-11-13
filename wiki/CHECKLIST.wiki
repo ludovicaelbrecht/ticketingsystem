@@ -2,6 +2,16 @@
 
 checklist: persoonlijk, bevat ook dingen die handig zouden zijn maar minder belangrijk zijn
 
+== BELANGRIJK : OO-programmeren ==
+zeker 3lagen structuur gebruiken dus:
+
+INTERFACE (aspx en aspx.vb file!! --> controle:veld ingevuld, veld correct ingevuld vb geen tekst in datum veld)
+
+   ==> BUSINESS LAYER(vb clProductie,clKlant,clVoorstelling--> bevat functies die 
+       verwijzen naar functies in de clSqlCon + controle:vb. is deze klant ouder dan 23?)
+
+   ==> DATA LAYER(clSqlCon, de eigenlijk SQL statement, geen controle)
+
 == TO DO ==
 
 - Plaatsingsalgoritme uitwerken+grondplan maken en tabellen aanpassen
