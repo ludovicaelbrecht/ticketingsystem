@@ -18,7 +18,7 @@ checklist: persoonlijk, bevat ook dingen die handig zouden zijn maar minder bela
 ===KENNY===
 - voorstellingen : controle op invoer uur (10 invullen geeft errors)
 
-- insertProductie==> zichtbaar veld is nu int==> boolean van maken?
+- insertProductie==> zichtbaar veld is nu int==> boolean van maken?+code toevoegen dat dit automatisch wordt ingevuld naargelang de datum
 
 - confirmations na inserts toevoegen of foutcode (try catch)
 
