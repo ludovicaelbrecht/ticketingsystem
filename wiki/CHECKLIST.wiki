@@ -2,7 +2,7 @@
   *  Per klasse: Taken die nog moeten gebeuren zodat het systeem voldoet aan de eisen van de toneelgroep.
   *  Persoonlijke checklist: bevat de dingen die handig zouden zijn maar dan verdeeeld per persoon.
 
-= ~~Algemeen:~~ =
+= AlLGEMEEN: =
 == OO-programmeren ==
 => zeker 3lagen structuur gebruiken:
 
@@ -24,7 +24,7 @@
  *  Foutbehandeling (zie persoonlijke checklist)
  *  Geheugen terug vrijgeven (obj=Nothing enzo)
 
-= Klassen: =
+= KLASSEN: =
 == Reserveringen door klanten ==
  *  Via mail bevestigen dat men komt (ordernummer + querystring)
  *  Klanten beheren met verschillende profielen
@@ -52,10 +52,10 @@
  *  Rapporten maken
 
 
-= Persoonlijke checklist =
+= PERSOONLIJKE CHECKLIST =
 ==KENNY==
  *  Voorstellingen : controle op invoer uur (10 invullen geeft errors)
- *  InsertProductie==> zichtbaar veld is nu int==> boolean van maken?+code toevoegen dat dit automatisch wordt ingevuld naargelang de datum
+ *  InsertProductie ==> zichtbaar veld is nu int==> boolean van maken?+code toevoegen dat dit automatisch wordt ingevuld naargelang de datum
  *  Confirmations na inserts toevoegen of foutcode (try catch)
  *  Controle==> geen 2x dezelfde voorstelling per dag toevoegen op hetzelfde uur ofzo
  *  SQL injections voorkomen (filterfuncties?)
