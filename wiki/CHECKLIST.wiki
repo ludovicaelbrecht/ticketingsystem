@@ -47,7 +47,7 @@
 = PERSOONLIJKE CHECKLIST =
 ==KENNY==
  *  Voorstellingen : controle op invoer uur (10 invullen geeft errors)
- *  InsertProductie ==> zichtbaar veld is nu int==> boolean van maken?+code toevoegen dat dit automatisch wordt ingevuld naargelang de datum
+ *  InsertProductie: zichtbaar veld is nu int==> boolean van maken?+code toevoegen dat dit automatisch wordt ingevuld naargelang de datum
  *  Confirmations na inserts toevoegen of foutcode (try catch)
  *  Controle==> geen 2x dezelfde voorstelling per dag toevoegen op hetzelfde uur ofzo
  *  SQL injections voorkomen (filterfuncties?)
