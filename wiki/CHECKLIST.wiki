@@ -69,4 +69,4 @@
 ==WILLEM==
 *  Medewerkers beheren + lay-out + samenzetten
 ==MORGAN==
-*  Klanten verder uitwerken
+ *  Klanten verder uitwerken
