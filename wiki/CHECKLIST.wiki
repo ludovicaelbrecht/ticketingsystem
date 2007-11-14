@@ -2,7 +2,7 @@
   *  Per klasse: Taken die nog moeten gebeuren zodat het systeem voldoet aan de eisen van de toneelgroep.
   *  Persoonlijke checklist: bevat de dingen die handig zouden zijn maar dan verdeeeld per persoon.
 
-= Algemeen: =
+= ~~Algemeen:~~ =
 == OO-programmeren ==
 => zeker 3lagen structuur gebruiken:
 
