@@ -2,8 +2,8 @@
   *  Per klasse: Taken die nog moeten gebeuren zodat het systeem voldoet aan de eisen van de toneelgroep.
   *  Persoonlijke checklist: bevat de dingen die handig zouden zijn maar dan verdeeeld per persoon.
 
-== Algemeen: ==
-= OO-programmeren =
+= Algemeen: =
+== OO-programmeren ==
 => zeker 3lagen structuur gebruiken:
 
    ==> INTERFACE LAYER
@@ -17,35 +17,56 @@
    ==> DATA LAYER
        (clSqlCon, de eigenlijk SQL statement, geen controle)
 
-== TO DO ==
+== To do ==
+*  Alle update en inputvelden valideren
+*  Zoekfuncties voor klanten, tickest en voorstellingen snel op te sporen
+*  Lay-out verbeteren
+*  Foutbehandeling (zie persoonlijke checklist)
+*  Geheugen terug vrijgeven (obj=Nothing enzo)
 
-- Plaatsingsalgoritme uitwerken+grondplan maken en tabellen aanpassen
+= Klassen: =
+== Reserveringen door klanten ==
+*  Via mail bevestigen dat men komt (ordernummer + querystring)
+*  Klanten beheren met verschillende profielen
+*  Klanten verdelen over zaal
+*  Automatisch klantengegevens ophalen
+*  Groepen kunnen optie nemen op tickets
+*  Verschillende prijzen
+*  Limiet van aantal tickets bestellen
+*  Laatste week betalen aan kassa 
+*  Laatste dag kopen aan kassa
 
-- overzicht reservaties afdrukken met opties voor Alles, betaalde of niet-betaalde
+== Tickets ==
+*  Tickets  afdrukken allemaal / per  reservering / blanco
+*  Plaats toewijzen aan klant
+*  Betalingen opvolgen
+*  Tickets annuleren door medewerker
+*  Zaalplan voor medewerker bekijken
 
-- foutbehandeling (zie checklist)
+== Voorstellingen ==
+*  Voorstellingen annuleren
+*  Extra voorstellingen toevoegen
+*  Voorstelling/productie laten verlopen
 
-- geheugen terug vrijgeven (obj=Nothing enzo)
-
-
-== individuele checklists ==
-
-===KENNY===
-- voorstellingen : controle op invoer uur (10 invullen geeft errors)
-
-- insertProductie==> zichtbaar veld is nu int==> boolean van maken?+code toevoegen dat dit automatisch wordt ingevuld naargelang de datum
-
-- confirmations na inserts toevoegen of foutcode (try catch)
-
-- controle==> geen 2x dezelfde voorstelling per dag toevoegen op hetzelfde uur ofzo
-
-- SQL injections voorkomen (filterfuncties?)
+== Klanten ==
+*  Rapporten maken
 
 
-===JEROEN===
 
-===LUDO===
 
-===WILLEM===
+= Persoonlijke checklist =
+==KENNY==
+*  Voorstellingen : controle op invoer uur (10 invullen geeft errors)
+*  InsertProductie==> zichtbaar veld is nu int==> boolean van maken?+code toevoegen dat dit automatisch wordt ingevuld naargelang de datum
+*  Confirmations na inserts toevoegen of foutcode (try catch)
+*  Controle==> geen 2x dezelfde voorstelling per dag toevoegen op hetzelfde uur ofzo
+*  SQL injections voorkomen (filterfuncties?)
 
-===MORGAN===
+==JEROEN==
+*  Reserveringen van klanten voort uitwerken
+==LUDO==
+*  Klasse tickets verder uitwerken
+==WILLEM==
+*  Medewerkers beheren + lay-out + samenzetten
+==MORGAN==
+*  Klanten verder uitwerken
