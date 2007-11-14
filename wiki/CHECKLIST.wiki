@@ -1,16 +1,21 @@
-# Algemene TODO: grote wijzigingen/toevoegingen die zeker moeten gebeuren voor het inleveren.
+  *Algemeen: grote wijzigingen/toevoegingen die zeker moeten gebeuren voor het inleveren.
+  *Per klasse: Taken die nog moeten gebeuren zodat het systeem voldoet aan de eisen van de toneelgroep.
+  *Persoonlijke checklist: bevat de dingen die handig zouden zijn maar dan verdeeeld per persoon.
 
-checklist: persoonlijk, bevat ook dingen die handig zouden zijn maar minder belangrijk zijn
+== Algemeen: ==
+= OO-programmeren =
+=> zeker 3lagen structuur gebruiken:
 
-== BELANGRIJK : OO-programmeren ==
-zeker 3lagen structuur gebruiken dus:
+   ==> INTERFACE LAYER
+       (aspx en aspx.vb file!! --> controle:veld ingevuld, veld correct ingevuld vb geen
+        tekst in datum veld)
 
-INTERFACE (aspx en aspx.vb file!! --> controle:veld ingevuld, veld correct ingevuld vb geen tekst in datum veld)
+   ==> BUSINESS LAYER
+       (vb clProductie,clKlant,clVoorstelling--> bevat functies die
+        verwijzen naar functies in de clSqlCon + controle:vb. is deze klant ouder dan 23?)
 
-   ==> BUSINESS LAYER(vb clProductie,clKlant,clVoorstelling--> bevat functies die 
-       verwijzen naar functies in de clSqlCon + controle:vb. is deze klant ouder dan 23?)
-
-   ==> DATA LAYER(clSqlCon, de eigenlijk SQL statement, geen controle)
+   ==> DATA LAYER
+       (clSqlCon, de eigenlijk SQL statement, geen controle)
 
 == TO DO ==
 
