@@ -5,17 +5,14 @@
 = AlLGEMEEN: =
 == OO-programmeren ==
 => zeker 3lagen structuur gebruiken:
+ # INTERFACE LAYER
+(aspx en aspx.vb file!! --> controle:veld ingevuld, veld correct ingevuld vb geen tekst in datum veld)
 
-   ==> INTERFACE LAYER
-       (aspx en aspx.vb file!! --> controle:veld ingevuld, veld correct ingevuld vb geen
-        tekst in datum veld)
+ # BUSINESS LAYER
+(vb clProductie,clKlant,clVoorstelling--> bevat functies die verwijzen naar functies in de clSqlCon + controle:vb. is deze klant ouder dan 23?)
 
-   ==> BUSINESS LAYER
-       (vb clProductie,clKlant,clVoorstelling--> bevat functies die
-        verwijzen naar functies in de clSqlCon + controle:vb. is deze klant ouder dan 23?)
-
-   ==> DATA LAYER
-       (clSqlCon, de eigenlijk SQL statement, geen controle)
+ # DATA LAYER
+(clSqlCon, de eigenlijk SQL statement, geen controle)
 
 == To do ==
  *  Alle update en inputvelden valideren
