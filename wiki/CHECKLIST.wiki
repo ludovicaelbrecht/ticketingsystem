@@ -1,6 +1,6 @@
-  *Algemeen: grote wijzigingen/toevoegingen die zeker moeten gebeuren voor het inleveren.
-  *Per klasse: Taken die nog moeten gebeuren zodat het systeem voldoet aan de eisen van de toneelgroep.
-  *Persoonlijke checklist: bevat de dingen die handig zouden zijn maar dan verdeeeld per persoon.
+  *  Algemeen: grote wijzigingen/toevoegingen die zeker moeten gebeuren voor het inleveren.
+  *  Per klasse: Taken die nog moeten gebeuren zodat het systeem voldoet aan de eisen van de toneelgroep.
+  *  Persoonlijke checklist: bevat de dingen die handig zouden zijn maar dan verdeeeld per persoon.
 
 == Algemeen: ==
 = OO-programmeren =
