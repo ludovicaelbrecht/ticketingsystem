@@ -15,6 +15,7 @@
  *  Lay-out verbeteren
  *  Foutbehandeling (zie persoonlijke checklist)
  *  Geheugen terug vrijgeven (obj=Nothing enzo)
+ *  Zaalplan module (op het einde !)
 
 = KLASSEN: =
 == Reserveringen door klanten ==
